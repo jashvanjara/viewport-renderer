@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <RootNamespace>_3D_Rendering</RootNamespace>
+    <PackageVersion>1.0</PackageVersion>
+    <Title>3D Rendering</Title>
+    <Copyright>Copyright © 2019</Copyright>
+    <Description>Description of 3D Rendering</Description>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Eto.Forms" Version="2.4.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\Eto.Gl\Eto.Gl.csproj" />
+  </ItemGroup>
+  
+</Project>
