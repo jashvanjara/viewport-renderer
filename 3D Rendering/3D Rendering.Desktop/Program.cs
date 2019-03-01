@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Eto.Gl;
 using Eto.Forms;
-using Eto.Drawing;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace _3D_Rendering.Desktop
 {
@@ -9,7 +12,10 @@ namespace _3D_Rendering.Desktop
         [STAThread]
         static void Main(string[] args)
         {
-            new Application(Eto.Platform.Detect).Run(new MainForm());
+            var platform = new Eto.WinForms.Platform();
+            platform.Add<GLSurface.IHandler>(() => new Eto.Gl.Windows.WinGLSurfaceHandler());
+
+            new Application(platform).Run(new MainForm());
         }
     }
 }

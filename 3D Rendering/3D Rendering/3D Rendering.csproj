@@ -7,6 +7,7 @@
     <Title>3D Rendering</Title>
     <Copyright>Copyright © 2019</Copyright>
     <Description>Description of 3D Rendering</Description>
+    <AssemblyName />
   </PropertyGroup>
   
   <ItemGroup>

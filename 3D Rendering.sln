@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto.Gl", "Eto.Gl\Eto.Gl.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto.Gl.WPF_WinformsHost", "Eto.Gl.WPF_WinformsHost\Eto.Gl.WPF_WinformsHost.csproj", "{43C9116A-2F41-4F57-88E5-6B49BFB7881B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3D Rendering", "3D Rendering\3D Rendering\3D Rendering.csproj", "{50B08362-1893-44BC-A5EE-D5F2D982A473}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3D Rendering", "3D Rendering\3D Rendering\3D Rendering.csproj", "{50B08362-1893-44BC-A5EE-D5F2D982A473}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3D Rendering.Desktop", "3D Rendering\3D Rendering.Desktop\3D Rendering.Desktop.csproj", "{FFF2F872-F26E-4329-BFB7-4901495A0679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3D Rendering.Desktop", "3D Rendering\3D Rendering.Desktop\3D Rendering.Desktop.csproj", "{FFF2F872-F26E-4329-BFB7-4901495A0679}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
